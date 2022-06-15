@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+* {
+    /* width: 100%;  */
+    /* padding: 0; */
+    /* margin: 0;   */
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 48, 121, 1) 35%, rgba(229, 0, 255, 1) 100%);
+    color: snow;
+    font-size: larger;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+header{
+    height: 5em;
+    background-image: url('disneycastle.png');
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+img {
+    width: 250px;
+}
+form {
+    width: 100%;
+    padding: 1em 3em 1em 3em;
+    text-align: center;
+}
+section {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+section div {
+    width: 30%;
+}
+section h2 {
+    text-transform: uppercase;
+}
+ul {
+    list-style: square inside;
+}
+label, h2{
+    padding-left: 4em
+}
+label, select, .bouton{
+    font-size: 18px;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+select{
+    margin: 0 1em;
+}
+.bouton {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0055ff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+}
+.bouton:hover {
+    background-color: #0000ff
+}
+.bouton:active {
+    background-color: #0055FF;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
