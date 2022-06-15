@@ -6,4 +6,4 @@ Le dossier comporte :
 - un fichier HTML5 index.html,
 - un fichier CSS3 style.css,
 - un fichier JS script.js,
-- une image disneycatsle.png
+- une image disneycastle.png
